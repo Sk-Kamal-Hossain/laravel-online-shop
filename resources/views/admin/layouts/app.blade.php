@@ -37,7 +37,7 @@
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link p-0 pr-3" data-toggle="dropdown" href="#">
-							<img src="{{ asset('admin-assets/img/avatar5.png')}}" class='img-circle elevation-2' width="40" height="40" alt="">
+							<img src="{{ asset('admin-assets/img/avatar5.png') }}" class='img-circle elevation-2' width="40" height="40" alt="">
 						</a>
 						<div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-3">
 							<h4 class="h4 mb-0"><strong>{{ Auth::guard('admin')->user()->name }}</strong></h4>
@@ -52,8 +52,8 @@
 							</a>
 							<div class="dropdown-divider"></div>
 							<a href="{{ route('admin.logout') }}" class="dropdown-item text-danger">
-								<i class="fas fa-sign-out-alt mr-2"></i> Logout							
-							</a>							
+								<i class="fas fa-sign-out-alt mr-2"></i> Logout	
+							</a>					
 						</div>
 					</li>
 				</ul>
